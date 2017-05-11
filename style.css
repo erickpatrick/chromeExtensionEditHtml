@@ -1,0 +1,56 @@
+[class^=chr] {
+    box-sizing: border-box;
+}
+
+.chrExtStw_Bar {
+    display: block;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+    background-color: #fafafa;
+    color: black;
+}
+
+.chrExtStw_Button {
+    margin-right: 20px;
+    border: 0;
+    background: #444;
+    color: white;
+    text-transform: capitalize;
+}
+
+.chrExtStw_Textarea {
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+}
+
+.chrExtStw_Modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 9999999;
+}
+
+.chrExtStw_Modal .chrExtStw_Button {
+    display: block;
+    position: fixed;
+    right: 10px;
+    background: #000;
+    color: #fff;
+}
